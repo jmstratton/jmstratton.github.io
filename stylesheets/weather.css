@@ -1,5 +1,5 @@
 .box-1 {
-    border: solid 2px rgb(3, 2, 63);
+    border: solid 1px rgb(3, 2, 63);
   }
   .home-1 {
     
@@ -7,24 +7,24 @@
   }
 
   .ground-1 {
-      background: rgb(191, 214, 243);
+      background: rgb(141, 183, 235);
   }
   .ground-2 {
-      background: rgb(191, 214, 243);
+      background: rgb(141, 183, 235);
   }
 
   .table-1{
-      background: rgb(191, 214, 243);
+      background: rgb(141, 183, 235);
   }
   @media (max-width: 992px) {
    .box-1 {
-    background: rgba(149, 47, 245);
-   border: solid 2px black;
+    background: rgb(3, 5, 90);
+   border: solid 1px black;
    
   } 
   }
   @media (min-width: 1px){
       .table-1 {
-          background: rgb(191, 214, 243)
+          background: rgb(141, 183, 235)
       }
   }
