@@ -18,13 +18,13 @@
    <div class="row">
     <nav class="navbar box-1">
      <!-- nav btn to home -->
-     <a class="btn btn-warning btn-lg" style="float: left;" background-color="blue" border-color="blue" href="https://jmstratton.github.io/" role="button">
-      WeatherPy Home
+     <a class="btn btn-primary btn-lg" style="float: left;" background-color="blue" border-color="blue" href="https://jmstratton.github.io/" role="button">
+      WeatherPy
      </a>
      <div style="float: right;" class="btn-group btn-lg">
       <!-- buttons start -->
       <form class="form-inline">
-       <button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
+       <button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
         Plots
         <span class="caret">
         </span>
@@ -67,33 +67,41 @@
    <div class="row">
     <div class="col-md-7 col-sm-12 ground-2" style=" background-blend-mode: lighten;">
      <h1>
-      <strong>Summary: Latitude Vs X </strong>
+      <div class="d-flex p-2">
+        <strong>Summary: Latitude Weather Analysis </strong>
+      </div>
      </h1>
      <p>
-      The goal of this project was to analyze how weather changes based on a city's proximity 
+        <div class="d-flex p-2">
+                    The goal of this project was to analyze how weather changes based on a city's proximity 
                     to the equator.  To accomplish this, we first pulled data from the OpenWeatherMap API
                     to assemble a dataset on over 500 cities around the world.
+        </div>
      </p>
      <p>
-      After gathering the data, we used pandas to organize the data and then Matplotlib to
+        <div class="d-flex p-2">
+                    After gathering the data, we used pandas to organize the data and then Matplotlib to
                     plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,
                     cloudiness, wind speed, and humidity. This site provides the source data and visualizations
                     created from the anaylsis, as well as explainations and descriptions of any trends and correlations
                     discovered.
+        </div>            
      </p>
     </div>
    <div class="col-md-1 col-sm-12"> </div>
     <div class="col-md-4 col-sm-12 ground-2">
      <h2>
-      <strong>Visualizations</strong>
+        <div class="d-flex p-2">
+          <strong>Visualizations</strong>
+        </div>
      </h2>
      <div class="row">
-      <div class="col-md-6 col-sm-12" style="border: solid 1px teal;">
+      <div class="col-md-6 col-sm-12" style="border: solid 2px black;">
        <a href="https://jmstratton.github.io/Visualization_1">
         <img alt="Plot 1" class="img-responsive" src="Resources/assets/images/vsMaxTemp.png" width="300"/>
        </a>
       </div>
-      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
+      <div class="col-md-6 col-sm-12" style="border: solid 2px black">
        <a href="https://jmstratton.github.io/Visualization_2">
         <img alt="Plot 2" class="img-responsive" src="Resources/assets/images/vsHumidity.png" width="300"/>
        </a>
@@ -101,12 +109,12 @@
      </div>
      
      <div class="row">
-      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
+      <div class="col-md-6 col-sm-12" style="border: solid 2px black">
        <a href="https://jmstratton.github.io/Visualization_3">
         <img alt="Plot 3" class="img-responsive" src="Resources/assets/images/vsCloudiness.png" width="300"/>
        </a>
       </div>
-      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
+      <div class="col-md-6 col-sm-12" style="border: solid 2px black">
        <a href="https://jmstratton.github.io/Visualization_4">
         <img alt="Plot 4" class="img-responsive" src="Resources/assets/images/vsWindSpeed.png" width="300"/>
        </a>
