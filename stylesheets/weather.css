@@ -1,6 +1,11 @@
 .box-1 {
+    height: 50px;
     background: rgb(4, 2, 95);
     border: solid 1px rgb(4, 2, 95);
+    margin: auto;
+    padding: auto;
+    top: auto;
+    width: 100%;
   }
   .home-1 {
     
@@ -20,7 +25,8 @@
   @media (max-width: 992px) {
    .box-1 {
     background: rgb(4, 2, 95);
-   border: solid 1px rgb(95, 82, 129);
+    border: solid 1px rgb(95, 82, 129);
+    margin: 1000px
    
   } 
   }
