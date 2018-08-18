@@ -1,2 +1,2 @@
-# jmstratton.github.io
-Trying out Git Pages
+Weather Analysis Dashboard - HTML/Bootstrap
+ - JMStratton
